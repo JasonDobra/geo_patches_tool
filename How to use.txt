@@ -1,7 +1,10 @@
 
 Copyright Jason Dobra 2024
 
-Please dont sell this script it should remain free to help artists.
+Please don't sell this script it should remain free to help artists.
+Feel free to build on it though, make sure to share the love.
+By mentioning or crediting me or buying something small :)
+Have fun guys!
 
 To Use:
 both commands you must first place python scripts into documents/maya/scripts
