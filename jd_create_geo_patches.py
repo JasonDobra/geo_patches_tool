@@ -9,9 +9,9 @@ def setup_geo_patches(face_selection, patch_name):
     if result == 'OK':
         
         patch_name = mc.promptDialog(query=True, text=True)
-        create_mesh_patch(patch_name, face_selection)
+        create_geo_patch(patch_name, face_selection)
        
-def create_mesh_patch(patch_name, face_selection):
+def create_geo_patch(patch_name, face_selection):
     
     stored_face_selection=[]
     face_selection_list=[]
