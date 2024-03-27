@@ -1,17 +1,33 @@
 
+
 Copyright Jason Dobra 2024
 
-Please don't sell this script it should remain free to help artists.
-Feel free to build on it though, make sure to share the love.
-By mentioning or crediting me or buying something small :)
-Have fun guys!
+Geo Patches Tool.
 
+Please don't sell this script lets keep it free to help other artists.
+Feel free to build on it though, make sure to share the love by mentioning
+or crediting me or buying something small :)
+
+If you have any question message me at jasondobra.com
+
+Have fun guys Jase!
+
+-----------------------------------------------------------------------------------------------
+To create a Geo Patch
+Select faces of your mesh to create a Geo Patch
+And Run...
+
+To transfer Geo Patch
+Select a Patch (source) and Mesh (Target)
+And Run...
+-----------------------------------------------------------------------------------------------
 To Use:
 both commands you must first place python scripts into documents/maya/scripts
 
-
-
 Shelf button for creating geo a patch:
+
+-----------------------------------------------------------------------------------------------
+code to run:
 
 import jd_create_geo_patches
 jd_create_geo_patches.setup_mesh_patches(maya.cmds.ls(sl=True), patch_name='name')
