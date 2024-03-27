@@ -2,7 +2,7 @@ import maya.cmds as mc
 
 import random
 
-def setup_mesh_patches(face_selection, patch_name):
+def setup_geo_patches(face_selection, patch_name):
     
     result = promptNameWindow()
     
@@ -73,4 +73,4 @@ def promptNameWindow():
 
        
 if __name__ == '__main__':
-    setup_mesh_patches(mc.ls(sl=True), patch_name='L_eye_patch_geo')
+    setup_geo_patches(mc.ls(sl=True), patch_name='L_eye_patch_geo')
