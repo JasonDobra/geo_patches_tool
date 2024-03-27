@@ -30,7 +30,7 @@ Shelf button for creating geo a patch:
 code to run:
 
 import jd_create_geo_patches
-jd_create_geo_patches.setup_mesh_patches(maya.cmds.ls(sl=True), patch_name='name')
+jd_create_geo_patches.setup_geo_patches(maya.cmds.ls(sl=True), patch_name='name')
 
 Shelf button for transfering a geo patch:
 
