@@ -1,0 +1,19 @@
+
+Copyright Jason Dobra 2024
+
+Please dont sell this script it should remain free to help artists.
+
+To Use:
+both commands you must first place python scripts into documents/maya/scripts
+
+
+
+Shelf button for creating geo a patch:
+
+import jd_create_geo_patches
+jd_create_geo_patches.setup_mesh_patches(maya.cmds.ls(sl=True), patch_name='name')
+
+Shelf button for transfering a geo patch:
+
+import jd_transfer_geo_patch_smooth
+jd_transfer_geo_patch_smooth.transfer_patch_skinning(maya.cmds.ls(sl=True), True, True, 2)
