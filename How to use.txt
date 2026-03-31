@@ -16,21 +16,28 @@ Have fun guys Jase!
 To create a Geo Patch
 Select faces of your mesh to create a Geo Patch
 And Run...
+Name your patches
 
 To transfer Geo Patch
 Select a Patch (source) and Mesh (Target)
 And Run...
 -----------------------------------------------------------------------------------------------
+To delete Geo Patch
+Select patch and use delete
+
+-----------------------------------------------------------------------------------------------
+
 To Use:
-both commands you must first place python scripts into documents/maya/scripts
+all your scripts you must first place python scripts into documents/maya/scripts
 
 Shelf button for creating geo a patch:
 
 -----------------------------------------------------------------------------------------------
 code to run:
 
+for example:
 import jd_create_geo_patches
-jd_create_geo_patches.setup_geo_patches(maya.cmds.ls(sl=True), patch_name='name')
+jd_create_geo_patches.setup_geo_patches(maya.cmds.ls(sl=True), patch_name=None)
 
 Shelf button for transfering a geo patch:
 
