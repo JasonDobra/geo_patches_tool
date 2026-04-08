@@ -13,16 +13,16 @@ If you have any question message me at jasondobra.com
 Have fun guys Jase!
 
 -----------------------------------------------------------------------------------------------
-To create a Geo Patch
-Select faces of your mesh to create a Geo Patch
+To create a geo patch
+Select faces of your mesh to create a GeoP button
 And Run...
-Name your patches
+Name your patches for example "Patch"
 
-To transfer Geo Patch
-Select a Patch (source) and Mesh (Target)
-And Run...
+To transfer geo patch
+Select a patch (source) and mesh (Target)
+And Run... GeoT
 -----------------------------------------------------------------------------------------------
-To delete Geo Patch
+To delete GeoD
 Select patch and use delete
 
 -----------------------------------------------------------------------------------------------
