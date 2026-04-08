@@ -28,18 +28,13 @@ Select patch and use delete
 -----------------------------------------------------------------------------------------------
 
 To Use:
-all your scripts you must first place python scripts into documents/maya/scripts
+all your scripts you must first place python scripts into /Documents/maya/2023/scripts
+icons in: /maya/2023/prefs/icons
 
 Shelf button for creating geo a patch:
 
 -----------------------------------------------------------------------------------------------
 code to run:
 
-for example:
-import jd_create_geo_patches
-jd_create_geo_patches.setup_geo_patches(maya.cmds.ls(sl=True), patch_name=None)
+drag and drop - jd_install_patches.py into maya viewport 
 
-Shelf button for transfering a geo patch:
-
-import jd_transfer_geo_patch_smooth
-jd_transfer_geo_patch_smooth.transfer_patch_skinning(maya.cmds.ls(sl=True), True, True, 2)
