@@ -36,6 +36,14 @@ def install_shelf_tool():
             sourceType="python"
         )
         
+        smooth_transfer_patch_button = cmds.shelfButton(
+            label="GeoSmTr", 
+            annotation="Transfer patch smoothed weights", 
+            image1="transfer_patch_skinning.png", 
+            command="import geo_patches.jd_transfer_geo_patch_smooth as geo_patches; geo_patches.jd_transfer_geo_patch_smooth()",
+            sourceType="python"
+        )
+        
         delete_patch_button = cmds.shelfButton(
             label="GeoD", 
             annotation="Delete patch", 
