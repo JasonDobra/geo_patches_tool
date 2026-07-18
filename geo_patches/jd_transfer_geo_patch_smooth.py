@@ -47,7 +47,7 @@ def smooth_skin_patch(source_mesh, target_mesh, target, source):
     for influence in source_influences:
         if influence not in target_influences:
         
-            cmds.skinCluster(targetSkin, edit=True, ai=influence, lw=True, ibp=True)
+            cmds.skinCluster(targetSkin, edit=True, ai=influence, wt=0)
             
         else:
             pass
@@ -75,6 +75,8 @@ def smooth_edge_border(selection, source, target, smoothAmt=None):
 
     if len(smoothAmt) > 0:
         mel.eval('doSmoothSkinWeightsArgList 3 { "0", "5", "0", "0"   };', ue=True)
+        
+    cmds.select(cl=True)
         
         
     
